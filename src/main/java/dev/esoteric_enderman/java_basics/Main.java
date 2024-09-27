@@ -5,6 +5,15 @@ package dev.esoteric_enderman.java_basics;
 
 import java.util.*;
 
+import dev.esoteric_enderman.java_basics.classes.SecondClass;
+import dev.esoteric_enderman.java_basics.classes.ThirdClass;
+import dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes.Vehicle;
+import dev.esoteric_enderman.java_basics.classes.abstraction.subclasses.vehicles.Car;
+import dev.esoteric_enderman.java_basics.classes.abstraction.subclasses.vehicles.Motorbike;
+import dev.esoteric_enderman.java_basics.classes.statics.Utility;
+import dev.esoteric_enderman.java_basics.enums.CoffeeSize;
+import dev.esoteric_enderman.java_basics.enums.Dessert;
+
 public class Main {
 
 	private static SecondClass secondClass;

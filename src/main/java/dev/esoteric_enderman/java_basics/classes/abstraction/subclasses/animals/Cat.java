@@ -3,11 +3,12 @@ package dev.esoteric_enderman.java_basics.classes.abstraction.subclasses.animals
 import dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes.Animal;
 
 public class Cat extends Animal {
+
 	public Cat() {
 		super(4);
 	}
 
-	public void Meow() {
+	public void meow() {
 		System.out.println("'Meow' - cat");
 	}
 

@@ -1,12 +1,22 @@
 package dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes;
 
 public abstract class Vehicle {
+
 	public String test = "This can be accessed in all sub-classes.";
-	private int wheels;
+
+	private int wheelCount;
 	private String colour;
 
+	public int getWheelCount() {
+		return wheelCount;
+	}
+
+	public String getColour() {
+		return colour;
+	}
+
 	public Vehicle(int wheels, String colour) {
-		this.wheels = wheels;
+		this.wheelCount = wheels;
 		this.colour = colour;
 	}
 
@@ -14,16 +24,8 @@ public abstract class Vehicle {
 
 	}
 
-	public int getWheels() {
-		return wheels;
-	}
-
-	public String getColour() {
-		return colour;
-	}
-
 	public int calculate() {
-		return wheels * 2;
+		return wheelCount * 2;
 	}
 
 	public abstract void activateBreaks();

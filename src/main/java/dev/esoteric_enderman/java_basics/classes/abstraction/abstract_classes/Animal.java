@@ -1,10 +1,15 @@
 package dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes;
 
 public abstract class Animal {
-	int legs;
+
+	private int legCount;
+
+	public int getLegCount() {
+		return legCount;
+	}
 
 	public Animal(int legs) {
-		this.legs = legs;
+		this.legCount = legs;
 	}
 
 	public abstract void jump();

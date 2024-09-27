@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.LinkedList;
 
 public class SecondClass {
+
 	private static Object djObject;
 
 	// public NameOfClass.

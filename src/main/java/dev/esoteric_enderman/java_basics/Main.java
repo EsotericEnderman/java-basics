@@ -174,7 +174,7 @@ public class Main {
 		vehicles.add(new Car(4, "Green"));
 		vehicles.add(new Motorbike("Blue", 4));
 
-		System.out.println(vehicles.get(1).getWheels());
+		System.out.println(vehicles.get(1).getWheelCount());
 
 		for (Vehicle vehicle : vehicles ) {
 			vehicle.activateBreaks();

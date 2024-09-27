@@ -3,6 +3,7 @@ package dev.esoteric_enderman.java_basics.classes.abstraction.subclasses.vehicle
 import dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes.Vehicle;
 
 public class Car extends Vehicle {
+
 	public Car(int wheels, String colour) {
 		super(wheels, colour);
 
@@ -12,11 +13,12 @@ public class Car extends Vehicle {
 		method();
 	}
 
-	// This constructor will be called if no arguments are passed.
+	// This constructor will be called if no arguments are passed for the wheel count.
 	public Car(String colour) {
 		super(4, colour);
 
 		final int calculation = calculate();
+		System.out.println(calculation);
 	}
 
 	public void handbrake() {

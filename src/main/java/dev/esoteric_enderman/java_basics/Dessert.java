@@ -1,7 +1,7 @@
 package dev.esoteric_enderman.java_basics;
 
 public enum Dessert {
-	ICECREAM("Ice Cream", 4),
+	ICE_CREAM("Ice Cream", 4),
 	BROWNIE("Brownie", 6),
 	CAKE("Cake", 10);
 

@@ -15,8 +15,8 @@ public abstract class Vehicle {
 		return colour;
 	}
 
-	public Vehicle(int wheels, String colour) {
-		this.wheelCount = wheels;
+	public Vehicle(int wheelCount, String colour) {
+		this.wheelCount = wheelCount;
 		this.colour = colour;
 	}
 

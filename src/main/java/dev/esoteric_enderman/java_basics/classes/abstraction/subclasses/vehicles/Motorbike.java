@@ -4,8 +4,8 @@ import dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes.Ve
 
 public class Motorbike extends Vehicle {
 
-	public Motorbike(String colour, int wheels) {
-		super(wheels, colour);
+	public Motorbike(String colour, int wheelCount) {
+		super(wheelCount, colour);
 	}
 
 	public Motorbike(String colour) {

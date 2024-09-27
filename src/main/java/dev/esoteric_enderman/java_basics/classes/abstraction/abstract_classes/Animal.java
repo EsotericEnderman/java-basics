@@ -8,8 +8,8 @@ public abstract class Animal {
 		return legCount;
 	}
 
-	public Animal(int legs) {
-		this.legCount = legs;
+	public Animal(int legCount) {
+		this.legCount = legCount;
 	}
 
 	public abstract void jump();

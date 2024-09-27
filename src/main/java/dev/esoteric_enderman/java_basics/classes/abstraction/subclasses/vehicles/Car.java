@@ -4,8 +4,8 @@ import dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes.Ve
 
 public class Car extends Vehicle {
 
-	public Car(int wheels, String colour) {
-		super(wheels, colour);
+	public Car(int wheelCount, String colour) {
+		super(wheelCount, colour);
 
 		// test is inherited from the Vehicle class.
 		System.out.println(test);

@@ -33,6 +33,7 @@ public class SecondClass {
 		System.out.println(djObject);
 	}
 
+	@SuppressWarnings("unused")
 	public void h() {
 		//                             0
 		String[] array = new String[]{ "Value 1", "Value 2", "Value 3" };

@@ -18,6 +18,7 @@ public class Main {
 
 	private static SecondClass secondClass;
 
+	@SuppressWarnings({ "unused", "null" })
 	public static void main(String[] args) {
 		String sentence = "This is a string."; // Can also have a blank string. String sentence;
 		System.out.println(sentence);
@@ -277,6 +278,7 @@ public class Main {
 	}
 
 	// Basically spread operator.
+	@SuppressWarnings("unused")
 	private static void doSomething(double... test) {
 		System.out.println(Arrays.toString(test));
 	}

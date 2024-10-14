@@ -7,7 +7,7 @@ import java.util.*;
 
 import dev.enderman.basics.classes.SecondClass;
 import dev.enderman.basics.classes.ThirdClass;
-import dev.enderman.basics.classes.abstraction.abstract_classes.Vehicle;
+import dev.enderman.basics.classes.abstraction.classes.Vehicle;
 import dev.enderman.basics.classes.abstraction.subclasses.vehicles.Car;
 import dev.enderman.basics.classes.abstraction.subclasses.vehicles.Motorbike;
 import dev.enderman.basics.classes.statics.Utility;

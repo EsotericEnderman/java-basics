@@ -1,6 +1,6 @@
 package dev.enderman.basics.classes.abstraction.subclasses.animals;
 
-import dev.enderman.basics.classes.abstraction.abstract_classes.Animal;
+import dev.enderman.basics.classes.abstraction.classes.Animal;
 
 public class Dog extends Animal {
 

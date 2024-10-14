@@ -1,4 +1,4 @@
-package dev.enderman.basics.classes.abstraction.abstract_classes;
+package dev.enderman.basics.classes.abstraction.classes;
 
 public abstract class Vehicle {
 

@@ -1,6 +1,6 @@
 package dev.enderman.basics.classes.abstraction.subclasses.vehicles;
 
-import dev.enderman.basics.classes.abstraction.abstract_classes.Vehicle;
+import dev.enderman.basics.classes.abstraction.classes.Vehicle;
 
 public class Car extends Vehicle {
 

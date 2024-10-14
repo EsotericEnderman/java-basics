@@ -1,6 +1,6 @@
-package dev.esoteric_enderman.java_basics.classes.abstraction.subclasses.animals;
+package dev.enderman.basics.classes.abstraction.subclasses.animals;
 
-import dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes.Animal;
+import dev.enderman.basics.classes.abstraction.abstract_classes.Animal;
 
 public class Cat extends Animal {
 

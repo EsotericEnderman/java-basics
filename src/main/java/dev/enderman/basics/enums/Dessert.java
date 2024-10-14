@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.java_basics.enums;
+package dev.enderman.basics.enums;
 
 public enum Dessert {
 	ICE_CREAM("Ice Cream", 4),

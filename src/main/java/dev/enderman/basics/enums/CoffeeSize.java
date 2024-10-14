@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.java_basics.enums;
+package dev.enderman.basics.enums;
 
 public enum CoffeeSize {
 	SMALL("Small", 2),

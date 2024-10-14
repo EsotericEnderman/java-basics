@@ -1,6 +1,6 @@
-package dev.esoteric_enderman.java_basics.classes.abstraction.subclasses.vehicles;
+package dev.enderman.basics.classes.abstraction.subclasses.vehicles;
 
-import dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes.Vehicle;
+import dev.enderman.basics.classes.abstraction.abstract_classes.Vehicle;
 
 public class Car extends Vehicle {
 

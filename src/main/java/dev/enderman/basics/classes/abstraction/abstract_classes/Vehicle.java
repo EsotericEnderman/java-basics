@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.java_basics.classes.abstraction.abstract_classes;
+package dev.enderman.basics.classes.abstraction.abstract_classes;
 
 public abstract class Vehicle {
 

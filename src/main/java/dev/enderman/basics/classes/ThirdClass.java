@@ -1,4 +1,4 @@
-package dev.esoteric_enderman.java_basics.classes;
+package dev.enderman.basics.classes;
 
 public class ThirdClass {
 

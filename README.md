@@ -1,5 +1,7 @@
 # Java Basics
 
+[![Project Status: Completed](./assets/images/badges/status.svg)](./)
+
 > A project I did that taught me the basics of Java.
 
 ## License
